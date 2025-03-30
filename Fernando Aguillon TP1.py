@@ -45,6 +45,4 @@
 #c= int(input("Ingrese un ultimo numero: "))
 #print(f"El promedio es: {(a + b + c) / 3:.2f}")
 
-
 #Otra linea mas
-#Una mas y ya
