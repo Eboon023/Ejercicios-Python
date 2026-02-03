@@ -1,7 +1,12 @@
+import os
+
 ventas_validas = []
 ventas_invalidas = []
 
-with open("ventas.txt", encoding="utf-8") as archivo:
+here = os.path.dirname(__file__)
+ruta_ventas = os.path.join(here, "ventas.txt")
+
+with open(ruta_ventas, encoding="utf-8") as archivo:
     for linea in archivo:
         valor = linea.strip()
 
